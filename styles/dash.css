@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 30px 30px;
+}
+
+.main{
+    padding: 30px 30px;
+}
+
+.wallets{
+    padding: 30px 30px;
+    
+}
+
+.imagens{
+    display: flex;
+    gap: 0.7rem;
+    padding-top: 1rem;
+    
+    
+}
+
+.image-border{
+    border: 1px solid rgb(80, 45, 126);
+    width: 10rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.colum{
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+    
+    
+}
+
+.first-colum, .second-colum, .third-colum{
+    width: 33%;
+    gap: 0.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-colum{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px rgb(80, 45, 126);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.small-colum{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 1px rgb(80, 45, 126);
+    padding: 0.5rem;
+    border-radius: 8px;
+}

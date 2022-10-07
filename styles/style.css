@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../assets/Crypto.svg);
+  background-size: cover;
+  padding: 85px;
+}
+
+#container,
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-top: 4rem;
+}
+
+input {
+  height: 55px;
+  background: none;
+  border-radius: 11.0388px;
+  border: 1px solid #7473D0;
+  filter: drop-shadow(-30.8563px 42.0768px 84.1535px #17122B);
+  backdrop-filter: blur(11.4576px);
+}
+
+.submit {
+    background: #42E8E0;
+    box-shadow: -30.8563px 42.0768px 84.1535px #17122B;
+    backdrop-filter: blur(11.4576px);
+    color: #17153A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.place{
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+padding-left: 1rem;
+
+color: #B1AFCD;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+p {
+  padding: 0px 10px;
+  color: #7473D0;
+}
+
+.image-predio {
+  padding-left: 146px;
+}
+
