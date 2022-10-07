@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.main, .wallets, .colum {
+    padding-left: 50px;
+    padding-top: 38px;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-top: 38px;
+}
 
 header{
     display: flex;
@@ -11,18 +20,11 @@ header{
     align-items: center;
 }
 
-.logo{
-    padding: 30px 30px;
+body{
+    background-color: #201D47;
 }
 
-.main{
-    padding: 30px 30px;
-}
 
-.wallets{
-    padding: 30px 30px;
-    
-}
 
 .imagens{
     display: flex;
@@ -42,8 +44,7 @@ header{
 
 .colum{
     display: flex;
-    padding: 30px 30px;
-    justify-content: space-between;
+     justify-content: space-between;
     
     
 }
@@ -62,7 +63,8 @@ header{
     align-items: center;
     border: solid 1px rgb(80, 45, 126);
     padding: 0.5rem;
-    border-radius: 8px;
+    border-radius: 11.0388px;
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
 }
 
 .small-colum{
@@ -72,5 +74,25 @@ header{
     align-items: center;
     border: solid 1px rgb(80, 45, 126);
     padding: 0.5rem;
-    border-radius: 8px;
+    border-radius: 11.0388px;
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+}
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 27.3001px;
+    line-height: 41px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+p{
+    color: #7473D0;
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8301px;
+    line-height: 18px;
 }
