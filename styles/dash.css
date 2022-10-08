@@ -35,47 +35,69 @@ body{
 }
 
 .image-border{
-    border: 1px solid rgb(80, 45, 126);
-    width: 10rem;
-    height: 3rem;
-    padding: 1rem;
-    border-radius: 8px;
+    
+    width: 185px;
+    height: 67px;
+    padding: 8px;
+    border-radius: 9.10004px;
+    background-color: #42E8E0;
+    
 }
 
 .colum{
+     display: flex;
+     
+ }
+
+.first-colum {
+    width: 24%;
+    gap: 0.7rem;
     display: flex;
-     justify-content: space-between;
+    flex-direction: column;
+}
     
-    
+
+.second-colum{
+    width: 24%;
+    gap: 0.7rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.first-colum, .second-colum, .third-colum{
-    width: 33%;
+.third-colum{
+    width: 24%;
     gap: 0.7rem;
     display: flex;
     flex-direction: column;
 }
 
 .principal-colum{
-    width: 100%;
+    width: 388.01px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px rgb(80, 45, 126);
     padding: 0.5rem;
     border-radius: 11.0388px;
     background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
 }
 
 .small-colum{
-    width: 100%;
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+    box-shadow: -30.8563px 42.0768px 84.1535px #17122B;
+    backdrop-filter: blur(11.4576px);
+    width: 388.01px;
+    height: 67.34px;
+    top: 435px;
+    left: 860.99px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: solid 1px rgb(80, 45, 126);
-    padding: 0.5rem;
+    padding: 11px;
     border-radius: 11.0388px;
-    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+    color: #7877B1;
+    font-size: 16.56px;
+    line-height: 19.75px;
+    gap: 17.5px;
 }
 
 h1{
@@ -85,7 +107,7 @@ h1{
     font-size: 27.3001px;
     line-height: 41px;
     mix-blend-mode: normal;
-    opacity: 0.9;
+    
 }
 
 p{
@@ -95,4 +117,21 @@ p{
     font-weight: 500;
     font-size: 11.8301px;
     line-height: 18px;
+}
+
+span{
+  padding: 12%;
+}
+
+h4{
+    color: white;
+}
+
+footer{
+    width: 1189px;
+    display: flex;
+    flex-direction: row;
+    height: 147px;
+    align-items: center;
+
 }
