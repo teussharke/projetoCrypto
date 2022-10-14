@@ -34,6 +34,7 @@ input {
   border: 1px solid #7473D0;
   filter: drop-shadow(-30.8563px 42.0768px 84.1535px #17122B);
   backdrop-filter: blur(11.4576px);
+  cursor: pointer;
 }
 
 .submit {
@@ -78,5 +79,5 @@ p {
 }
 
 .image-predio {
-  padding-left: 146px;
+  padding-left: 20rem;
 }

@@ -194,6 +194,7 @@ button {
   height: 29px;
   padding-left: 10px;
   font-size: 24px;
+  font: bold;
 }
 
 .aux {
