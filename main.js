@@ -1,6 +1,6 @@
 
 
-function togle(button){
+function toggle(button){
   var aux = document.getElementById("Header-link")
 
   if(aux.style.display == "block"){
