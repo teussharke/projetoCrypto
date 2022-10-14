@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-.main,
-.wallets,
-.colum,
-.logo,
-footer {
-  padding: 26px 38px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -20,6 +12,34 @@ header {
 
 body {
   background-color: #201d47;
+}
+
+footer {
+  display: flex;
+  padding: 1px 36px;
+  max-width: 100%;
+  min-height: fit-content;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+.main,
+.wallets,
+.logo {
+  padding: 26px 65px;
+}
+
+.logo {
+  padding-left: 3.5rem;
+}
+
+.wallets {
+  padding-left: 3.5rem;
+}
+
+.main {
+  padding-left: 3.5rem;
 }
 
 .image-colum {
@@ -37,7 +57,11 @@ body {
 .colum {
   display: flex;
   flex-direction: row;
-  gap: 2%;
+  justify-content: center;
+  max-width: 100%;
+  min-height: fit-content;
+  margin: 0 auto;
+  gap: 11.99px;
 }
 
 .first-colum {
@@ -130,6 +154,7 @@ footer {
   display: flex;
   width: 100%;
   gap: 5%;
+  align-items: center;
 }
 
 .input-conversion {
@@ -147,7 +172,6 @@ footer {
 }
 
 .input-conversion input {
-  padding: 0 1rem;
   width: 100%;
   background: none;
   border: none;
@@ -155,18 +179,25 @@ footer {
   font-weight: 400;
   font-size: 1rem;
   line-height: 21px;
+
 }
 
 #Header-link {
-  display: flex;
+  display: none;
   position: absolute;
   color: white;
-  border: 2px solid #7877b1;
-  background-color: #7877b1;
-  border-radius: 11.04px;
+  background: linear-gradient(
+    268.95deg,
+    rgba(41, 37, 88, 0.536345) 4.06%,
+    rgba(38, 35, 83, 0.866791) 42.35%,
+    rgba(40, 38, 89, 0.50218) 99.53%
+  );
+  backdrop-filter: blur(11.4576px);
+  border-radius: 11.0388px;
+  padding-top: 20px;
   text-align: center;
   right: 0;
-
+  margin-top: 10px;
 
   width: 257px;
   height: 102px;
@@ -187,15 +218,29 @@ button {
 
 .users {
   position: relative;
-
 }
 
 .conversion {
   display: flex;
   flex-direction: column;
+  
 }
 
 .btn {
   display: flex;
   position: relative;
+}
+
+.container-footer {
+  width: 100%;
+  padding:30px 23px;
+  background: linear-gradient(
+    268.95deg,
+    rgba(41, 37, 88, 0.536345) 4.06%,
+    rgba(38, 35, 83, 0.866791) 42.35%,
+    rgba(40, 38, 89, 0.50218) 99.53%
+  );
+  box-shadow: -30.8563px 42.0768px 84.1535px #17122b;
+  backdrop-filter: blur(11.4576px);
+  border-radius: 11.0388px;
 }
