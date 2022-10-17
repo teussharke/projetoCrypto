@@ -21,6 +21,44 @@ footer {
   margin-top: 1rem;
 }
 
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 27.3001px;
+  line-height: 41px;
+  mix-blend-mode: normal;
+}
+
+p {
+  color: #7473d0;
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.8301px;
+  line-height: 18px;
+}
+
+span {
+  width: 93.47px;
+  height: 19px;
+  padding-left: 150px;
+  color: #6f6ea4;
+}
+
+h4 {
+  color: white;
+}
+
+button {
+  border: none;
+  background-color: #201d47;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .main,
 .wallets,
 .logo {
@@ -41,7 +79,6 @@ footer {
 
 .colum {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   gap: 11.99px;
 }
@@ -92,32 +129,6 @@ footer {
   gap: 15.5px;
 }
 
-h1 {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 27.3001px;
-  line-height: 41px;
-  mix-blend-mode: normal;
-}
-
-p {
-  color: #7473d0;
-  font-family: "Poppins" sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 11.8301px;
-  line-height: 18px;
-}
-
-span {
-  padding: 12%;
-}
-
-h4 {
-  color: white;
-}
-
 .input-conversion {
   display: flex;
   flex-direction: row;
@@ -153,15 +164,6 @@ h4 {
   border-radius: 50%;
 }
 
-button {
-  border: none;
-  background-color: #201d47;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
 .users {
   position: relative;
 }
@@ -185,7 +187,6 @@ button {
   box-shadow: -30.8563px 42.0768px 84.1535px #17122b;
   backdrop-filter: blur(11.4576px);
   border-radius: 11.0388px;
-  
 }
 
 .preco {
@@ -205,8 +206,8 @@ button {
 
 .convert {
   display: flex;
-  color: #7877B1;
-
+  color: #7877b1;
+  padding-bottom: 15px;
 }
 
 .divi {
@@ -227,14 +228,13 @@ button {
   border: none;
   padding: 1rem;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   outline: none;
-  
-  
 }
 
-.text-wallets{
+.text-wallets {
   font-size: 12px;
-  color: #B1AFCD;
+  color: #b1afcd;
+  width: 74px;
+  height: 14px;
 }
-
