@@ -9,3 +9,8 @@ function toggle(button){
     aux.style.display = "block"
   }
 }
+
+function alerta(){
+  alert("Cadastro efetuado...")
+ 
+}
